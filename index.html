@@ -3,62 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Atul Kardile — Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <title>About Me - Atul Kardile</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="dark">
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <img src="assets/profile.jpg" alt="Atul Kardile" class="profile-img">
-    <h1>Hi, I’m <span>Atul Kardile</span></h1>
-    <p>Senior PHP Developer & Full Stack Engineer</p>
-    <a href="#projects" class="btn">See My Work</a>
-  </section>
+<section class="about-container">
+  <div class="left-panel">
+    <img src="assets/atul.jpg" alt="Atul Kardile" class="profile-pic" />
+    <p class="intro-text">
+      I'm a passionate Full-Stack Developer who loves building dynamic, user-friendly applications. 
+      I thrive on solving problems, creating seamless experiences, and continuously expanding my skills. 
+      Always eager to learn and grow, I'm currently looking for new opportunities to contribute and innovate.
+    </p>
+    <p class="location">📍 Pune, India</p>
+  </div>
 
-  <!-- About -->
-  <section class="about" id="about">
-    <h2>About Me</h2>
-    <p>I have over 9 years of experience in software development, PHP, Laravel, React, and more.</p>
-  </section>
+  <div class="right-panel">
+    <h2 class="section-title">About Me</h2>
 
-  <!-- Skills / Services -->
-  <section class="services" id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>PHP, Laravel, MySQL</li>
-      <li>React.js, JavaScript, HTML/CSS</li>
-      <li>Docker, Git, REST APIs</li>
-    </ul>
-  </section>
+    <div class="info-block">
+      <h3>Education</h3>
+      <p><strong>SPPU University</strong><br/>Bachelor of Computer Applications<br/><span class="meta">2010 - 2013 | CGPA: 7.8</span></p>
+    </div>
 
-  <!-- Projects -->
-  <section class="projects" id="projects">
-    <h2>Projects</h2>
-    <div class="project-list">
-      <div class="project-card">
-        <h3>CRM System</h3>
-        <p>Laravel-based CRM system for managing customers and sales.</p>
-      </div>
-      <div class="project-card">
-        <h3>E-Commerce App</h3>
-        <p>PHP + React shopping platform with cart and payment gateway.</p>
+    <div class="info-block">
+      <h3>Experience</h3>
+      <p><strong>AK Technique DevWorks</strong><br/>Senior Software Engineer<br/><span class="meta">2015 - Present | Pune</span></p>
+      <ul>
+        <li>Led development of scalable PHP web apps with Laravel</li>
+        <li>Integrated payment gateways and RESTful APIs</li>
+        <li>Reduced API response time by 40%</li>
+      </ul>
+    </div>
+
+    <div class="info-block">
+      <h3>Tech Stack</h3>
+      <div class="stack-list">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Laravel</span>
+        <span>React</span><span>Tailwind</span><span>MySQL</span><span>Docker</span><span>Git</span>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contact -->
-  <section class="contact" id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: atul@example.com</p>
-    <p>GitHub: <a href="https://github.com/atuldevtech" target="_blank">atuldevtech</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Atul Kardile</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
