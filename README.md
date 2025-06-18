@@ -1,4 +1,4 @@
-# atulkardile.portfolio.io
+# atulkardile.github.io
 <!-- Banner -->
 <img align="center" src="harsh1.gif" width="100%" alt="Image" /> 
 
