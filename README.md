@@ -29,9 +29,9 @@ An animated, responsive personal portfolio website built using React, Tailwind C
   <img width="6" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
   <img width="6" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="30" alt="nextjs logo"  />
+  <img src="https://skillicons.dev/icons?i=html" height="30" alt="html logo"  />
   <img width="6" />
-  <img src="https://skillicons.dev/icons?i=remix" height="30" alt="remix logo"  />
+  <img src="https://skillicons.dev/icons?i=postman" height="30" alt="postman logo"  />
   <img width="6" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="6" />
