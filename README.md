@@ -18,9 +18,11 @@ An animated, responsive personal portfolio website built using React, Tailwind C
 <h1 align="center" style= "color: yellow" > </h1>
          
  <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img src="https://skillicons.dev/icons?i=laravel" height="30" alt="laravel logo"  />
   <img width="6" />
   <img src="https://skillicons.dev/icons?i=php" height="30" alt="php logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img width="6" />
   <img width="6" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
   <img width="6" />
@@ -34,8 +36,6 @@ An animated, responsive personal portfolio website built using React, Tailwind C
   <img width="6" />
   <img src="https://skillicons.dev/icons?i=codeigniter" height="30" alt="codeigniter logo"  />
   <img width="6" />
-  <img src="https://skillicons.dev/icons?i=laravel" height="30" alt="laravel logo"  /> 
-  <img width="6" />
   <img src="https://skillicons.dev/icons?i=aws" height="30" alt="amazonwebservices logo"  />
   <img width="6" />
   <img src="https://skillicons.dev/icons?i=docker" height="30" alt="docker logo"  />
@@ -44,7 +44,7 @@ An animated, responsive personal portfolio website built using React, Tailwind C
   <img width="6" />
   <img src="https://skillicons.dev/icons?i=jenkins" height="30" alt="jenkins logo"  />
   <img width="6" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg" height="30" alt="argocd logo"  />
+  <img src="https://skillicons.dev/icons?i=docker" height="30" alt="docker logo"  />
   <img width="6" />
   <img src="https://cdn.simpleicons.org/git/F05032" height="30" alt="git logo"  />
   <img width="6" />
