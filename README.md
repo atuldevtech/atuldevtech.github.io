@@ -30,7 +30,7 @@ An animated, responsive personal portfolio website built using React, Tailwind C
   <img width="6" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="6" />
-  <img src="https://skillicons.dev/icons?i=codelgniter" height="30" alt="codeIgniter logo"  />
+  <img src="https://skillicons.dev/icons?i=codeigniter" height="30" alt="codeIgniter logo"  />
   <img width="6" />
   <img src="https://skillicons.dev/icons?i=spring" height="30" alt="spring logo"  /> 
   <img width="6" />
