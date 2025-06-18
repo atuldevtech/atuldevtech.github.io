@@ -30,9 +30,9 @@ An animated, responsive personal portfolio website built using React, Tailwind C
   <img width="6" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="6" />
-  <img src="https://skillicons.dev/icons?i=SiCodeigniter" height="30" alt="codeIgniter logo"  />
+  <img src="https://skillicons.dev/icons?i=codeigniter" height="30" alt="codeigniter logo"  />
   <img width="6" />
-  <img src="https://skillicons.dev/icons?i=spring" height="30" alt="spring logo"  /> 
+  <img src="https://skillicons.dev/icons?i=laravel" height="30" alt="laravel logo"  /> 
   <img width="6" />
   <img src="https://skillicons.dev/icons?i=aws" height="30" alt="amazonwebservices logo"  />
   <img width="6" />
