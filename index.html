@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atul Kardile - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> 
+  <script>
+    gsap.from("#title", {
+      duration: 1,
+      y: -50,
+      opacity: 0,
+      ease: "bounce"
+    });
+  </script>
+</head>
+<body>
+
+  <!-- Dark Mode Toggle -->
+  <button id="theme-toggle">🌙</button>
+
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1 class="fade-in" id="title">👋 Hi, I'm Atul Kardile</h1>
+      <p class="fade-in delay-1 mb-20">A passionate Full Stack Developer</p>
+      <img src="profile.jpg" alt="Developer Profile Picture" class="profile-pic zoom-in" />
+
+      <!-- Social Media Icons -->
+      <div class="social-icons slide-up">
+        <a href="https://atuldevtech.github.io/"  target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/atul-kardile-71444491/"  target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://youtube.com/yourchannel"  target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://instagram.com/yourusername"  target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/yourusername"  target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+
+      <!-- WhatsApp Button -->
+      <a href="https://wa.me/9021736756"  target="_blank" class="whatsapp-button bounce">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- About + Tech Stack Section -->
+  <section class="about-tech">
+    <div class="container fade-in">
+      <div class="about-card">
+        <h2>About Me</h2>
+        <!-- <p>
+          I’m a software developer with expertise in building web applications using modern technologies like React, Node.js, and Python.
+          I love creating clean, scalable, and user-friendly solutions.
+        </p>
+        <p>
+          Passionate software engineer 🚀 driven by coding 💻, innovation 💡, and solving complex challenges. Thrive on exploring emerging technologies to build scalable solutions 📈. Committed to lifelong learning 📚 and shaping the future of tech across industries.
+- Let’s connect 🤝 to transform ideas into impactful, cutting-edge solutions—one line of code at a time. ✨
+        </p> -->
+        <p>
+          I'm a passionate software engineer 🚀 driven by coding 💻, innovation 💡, and solving complex challenges. 
+          I specialize in building scalable web applications using technologies like Core PHP, Laravel, CodeIgniter, React, Angular, and RESTful APIs.
+        </p>
+        <p>
+          I thrive on exploring emerging technologies to deliver clean, efficient, and future-ready solutions 📚. 
+          Committed to lifelong learning and pushing the boundaries of what technology can achieve across industries.
+        </p>
+        <p>
+          Let’s connect 🤝 to transform ideas into impactful, cutting-edge solutions—one line of code at a time. ✨
+        </p>
+        <br/>
+        <hr/>
+        <br/>
+        <h3>Tech Stack</h3>
+        <div class="tech-list">
+          <span class="tech-tag html"><i class="fab fa-html5"></i> HTML</span>
+          <span class="tech-tag css"><i class="fab fa-css3-alt"></i> CSS</span>
+          <span class="tech-tag bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+          <span class="tech-tag php"><i class="fab fa-php"></i> PHP</span>
+          <span class="tech-tag laravel"><i class="fas fa-fire-alt"></i> Laravel</span>
+          <span class="tech-tag codeigniter"><i class="fas fa-bolt"></i> CodeIgniter</span>
+          <span class="tech-tag js"><i class="fab fa-js-square"></i> JavaScript</span>
+          <span class="tech-tag ts"><i class="fab fa-typescript"></i> TypeScript</span>
+          <span class="tech-tag react"><i class="fab fa-react"></i> ReactJS</span>
+          <span class="tech-tag angular"><i class="fab fa-angular"></i> AngularJS</span>
+          <span class="tech-tag tailwind"><i class="fas fa-layer-group"></i> Tailwind</span>
+          <span class="tech-tag rest-api"><i class="fas fa-cloud"></i> RESTful API</span>
+          <span class="tech-tag postman"><i class="fas fa-envelope-open-text"></i> Postman</span>
+          <span class="tech-tag git"><i class="fab fa-git"></i> Git</span>
+          <span class="tech-tag github"><i class="fab fa-github"></i> GitHub</span>
+          <!-- <span class="tech-tag node"><i class="fab fa-node-js"></i> Node.js</span>
+          <span class="tech-tag express"><i class="fas fa-server"></i> Express</span> -->
+          <span class="tech-tag docker"><i class="fab fa-docker"></i> Docker</span>
+          <span class="tech-tag cicd"><i class="fas fa-stream"></i> CI/CD Pipeline</span>
+          <span class="tech-tag aws"><i class="fab fa-aws"></i> AWS</span>
+          <span class="tech-tag azure"><i class="fab fa-microsoft"></i> Azure</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Resume Section -->
+  <section class="experience-resume">
+    <div class="container flex-section">
+      <div class="experience-box slide-up">
+        <h2 class="white">Career Journey</h2>
+        <ul class="timeline">
+          <li class="timeline-item">
+            <div class="year">2015</div>
+            <div class="content">
+              <h4>Moon SEZ Consultants Pvt Ltd.</h4>
+              <p>Software Developer</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="year">2018</div>
+            <div class="content">
+              <h4>V10x Technologies Pvt Ltd.</h4>
+              <p>Sr. Software Developer</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="year">2018</div>
+            <div class="content">
+              <h4>Datascience Technologies Pvt Ltd.</h4>
+              <p>Sr. Software Developer</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="year">2021</div>
+            <div class="content">
+              <h4>IntraEdge Technologies Pvt Ltd.</h4>
+              <p>Sr. Software Developer</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Resume Section -->
+      <div class="resume-box fade-in">
+        <!-- <img src="resume-icon.png" alt="Download Resume" class="resume-img pulse" /> -->
+        <i class="fas fa-file-alt resume-icon pulse"></i>
+        <h3>My Resume</h3>
+        <p class="mb-40">Want to see more about my experience and skills?</p>
+        <a href="SSE-Atul-Resume.pdf" download class="btn-resume" target="_blank">📄 Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Carousel -->
+<section class="projects-carousel">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="carousel-wrapper">
+      <button class="carousel-btn prev">&#10094;</button>
+      <div class="carousel-container">
+        <div class="carousel-track">
+
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <img src="projects/Real-Estate.jpg" alt="Real Estate" />
+            <h4>Real Estate</h4>
+            <!-- <p>A responsive personal portfolio built with HTML, CSS, JS & animations.</p> -->
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <img src="projects/healthcare1.png" alt="Healthcare" />
+            <h4>Healthcare</h4>
+            <!-- <p>Full-stack task manager app with React frontend and Node.js backend.</p> -->
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <img src="projects/logistics.jpg" alt="Logistics" />
+            <h4>Logistics</h4>
+            <!-- <p>Online store built using React, Redux, and Firebase authentication.</p> -->
+          </div>
+
+          <!-- Project Card 4 -->
+          <div class="project-card">
+            <img src="projects/ec.png" alt="Engineering & Construction" />
+            <h4>Engineering & Construction</h4>
+            <!-- <p>Weather forecast app that fetches live data from OpenWeatherMap API.</p> -->
+          </div>
+
+          <!-- Project Card 5 -->
+          <div class="project-card">
+            <img src="projects/agree-expo.png" alt="Agriculture Exhibition " />
+            <h4>Agriculture Exhibition</h4>
+            <!-- <p>Weather forecast app that fetches live data from OpenWeatherMap API.</p> -->
+          </div>
+        </div>
+      </div>
+      <button class="carousel-btn next">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <!-- <section class="projects">
+    <div class="container fade-in">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <img src="healthcare1.png" alt="Healthcare" />
+          <h4>Portfolio Website</h4>
+          <p>A responsive personal portfolio built with HTML, CSS, JS & animations.</p>
+        </div>
+        <div class="project-card">
+          <img src="healthcare1.png" alt="Healthcare" />
+          <h4>Task Manager App</h4>
+          <p>Full-stack task manager app with React frontend and Node.js backend.</p>
+        </div>
+        <div class="project-card">
+          <img src="healthcare1.png" alt="Healthcare" />
+          <h4>E-commerce Store</h4>
+          <p>Online store built using React, Redux, and Firebase authentication.</p>
+        </div>
+        <div class="project-card">
+          <img src="healthcare1.png" alt="Healthcare" />
+          <h4>Weather App</h4>
+          <p>Weather forecast app that fetches live data from OpenWeatherMap API.</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Form Section -->
+  <section class="contact">
+    <div class="container slide-up">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/YOUR_FORM_ID_HERE"  method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center slide-up">
+      <p>&copy; 2025 Atul Kardile. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Particles JS Script -->
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 80 },
+        "color": { "value": "#ffffff" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.5 },
+        "size": { "value": 3 },
+        "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "repulse" },
+          "onclick": { "enable": true, "mode": "push" }
+        }
+      }
+    });
+
+    // Project Carousel Logic
+    let currentIndex = 0;
+    const totalProjects = document.querySelectorAll('.carousel-track .project-card').length;
+    const track = document.querySelector('.carousel-track');
+    const cardWidth = 300; // Width of each card including gap
+    const gap = 1.5; // Gap between cards in rem
+
+    function updateCarousel(direction) {
+      const offset = -(currentIndex * (cardWidth / 25 + gap));
+      track.style.transform = `translateX(${offset}rem)`;
+    }
+
+    document.querySelector('.carousel-btn.next').addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % totalProjects;
+      updateCarousel();
+    });
+
+    document.querySelector('.carousel-btn.prev').addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + totalProjects) % totalProjects;
+      updateCarousel();
+    });
+
+    const carouselWrapper = document.querySelector('.carousel-wrapper');
+
+let autoScrollActive = true;
+
+carouselWrapper.addEventListener('mouseenter', () => {
+  autoScrollActive = false;
+});
+
+carouselWrapper.addEventListener('mouseleave', () => {
+  autoScrollActive = true;
+});
+
+// Update the setInterval block like this:
+setInterval(() => {
+  if (!autoScrollActive) return;
+  currentIndex = (currentIndex + 1) % totalProjects;
+  updateCarousel();
+}, 3000);
+  </script>
+</body>
+</html>
